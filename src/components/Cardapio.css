@@ -1,0 +1,90 @@
+.img-title img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+}
+
+.text-title {
+    background-color: rgba(248, 136, 44, 0.39);
+}
+
+.text-title > h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.food {
+    display: flex;
+    width: 450px;
+    background-color: #ebcf93;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.text-food {
+    height: 100px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.text-food > p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+.pratos {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.price {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.cards {
+    display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.img-food > img {
+    width: 200px;
+    height: 250px;
+}
+
+@media screen and (max-width: 960px) {
+    .cards {
+        display: grid;
+      grid-template-columns: repeat(1, auto);
+      grid-gap: 100px;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .text-title {
+        width: 125.5%;
+    }
+
+    .text-title > h1 {
+        font-size: 80px;
+    }
+
+    .food {
+        padding-left: 45px;
+    }
+
+    .price {
+        margin-top: 70px;
+    }
+}

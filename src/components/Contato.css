@@ -1,0 +1,56 @@
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text1 {
+  text-align: center;
+}
+
+.text2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    height: 600px;
+    margin-top: 50px;
+}
+
+.email {
+    padding-top: 10px;
+    width: 500px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.button {
+    text-align: center;
+    padding-top: 30px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f8ad67;
+}
+
+@media only screen and (max-width: 960px) {
+    .email {
+      width: 100%;
+    }
+  }
+@media only screen and (max-width: 361px) {
+    .email {
+      width: 125.5%;
+    }
+  }
+  
+  @media only screen and (max-width: 321px) {
+    .email {
+      width: 150%;
+    }
+  }
+

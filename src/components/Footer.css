@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 45px;
+    background-color: black;
+    text-align: center;
+    height: 90px;
+}
+
+.footer > p {
+    margin-bottom: 0;
+    color: #F6C9A0;
+}
+
+@media only screen and (max-width: 361px) {
+    .footer {
+      width: 125.5%;
+      height: 121px;
+      padding-top: 55px;
+    }
+  }
+  
+  @media only screen and (max-width: 321px) {
+    .footer {
+        width: 150%;
+        height: 121px;
+        padding-top: 55px;
+    }
+  }

@@ -1,0 +1,44 @@
+.carousel {
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-control-prev{
+    padding-top: 300px;
+}
+
+.carousel-control-next {
+    padding-top: 300px;
+}
+
+img {
+    height: 95vh;
+}
+
+@media only screen and (max-width: 1370px) {
+  img {
+    height: 97vh;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+    img {
+      height: 97vh;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .carousel {
+      width: 125.5%;
+    }
+  }
+  
+  @media only screen and (max-width: 321px) {
+    .carousel {
+      width: 150%;
+    }
+
+    img {
+        height: 106vh;
+    }
+  }
